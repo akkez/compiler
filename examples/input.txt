@@ -1,0 +1,8 @@
+Var param, a, b, c, meme: Boolean;
+
+Begin
+	meme = 1 .OR. 1;
+	a = 0;
+	b = .NOT. meme;
+	c = a .XOR. (meme .AND. (b .OR. 1));
+End
